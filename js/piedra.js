@@ -13,7 +13,7 @@ var opciones = ["Piedra", "Papel", "Tijera"];
 var opcionUsuario;
 var opcionMaquina = genOpcion(0,2);
 
-opcionUsuario = prompt("¿Qué liges?\nPiedra: 0\nPapel: 1\nTijera: 2",0);
+opcionUsuario = prompt("¿Qué eliges?\nPiedra: 0\nPapel: 1\nTijera: 2",0);
 
 alert("Elegiste: " + opciones[opcionUsuario]);
 alert("La máquina eligió: " + opciones[opcionMaquina]);
